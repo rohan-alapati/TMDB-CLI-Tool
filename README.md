@@ -1,4 +1,5 @@
 # TMDB-CLI-Tool
+  clone repo and run tool
 
 # type tmdb --help for tool help
 
