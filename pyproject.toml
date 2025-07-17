@@ -1,0 +1,17 @@
+[project]
+name = "tmdb-cli"
+version = "0.1.0"
+description = "A simple CLI for The Movie Database (TMDB)"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "click",
+  "requests",
+  "python-dotenv",
+]
+
+[project.scripts]
+tmdb = "tmdb_cli_tool.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["tmdb_cli_tool"]
